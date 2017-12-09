@@ -1,4 +1,8 @@
-language: cpp
+nguage: c
+addons:
+    apt:
+    packages:
+        - libcunit1
+        - libcunit1-dev
 script:
- - make
- - ./hw
+ - make && make test
