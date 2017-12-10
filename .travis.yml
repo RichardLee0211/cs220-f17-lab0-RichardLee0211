@@ -1,8 +1,8 @@
-nguage: c
+language: c
 addons:
     apt:
-    packages:
-        - libcunit1
-        - libcunit1-dev
+        packages:
+            - libcunit1
+            - libcunit1-dev
 script:
- - make && make test
+    - make && make test
