@@ -5,5 +5,4 @@ addons:
         - libcunit1
         - libcunit1-dev
 script:
- - make
- - ./hw
+ - make && make test
