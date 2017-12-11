@@ -2,10 +2,9 @@
 #include <stdio.h>
 int main(){
     printf("Hello World!\n");
+
     int i;
-    for(i=0; i<100; i++){
-        //printf(%i, i);
-        printf("boring");
-    }
+    printf("trying travis\n");
+
     return 0;
 }
